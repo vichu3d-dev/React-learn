@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
+//Components
+import Header from './components/header'
 
 const App = () => {
-    return <h1>Hello Vishnu!</h1>
+    return (
+        <div className="base">
+            <Header/>
+    </div>
+    )
 }
 
 ReactDom.render(<App/>,document.getElementById('root'));
